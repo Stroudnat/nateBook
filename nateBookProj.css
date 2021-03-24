@@ -1,0 +1,62 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.8fr 1fr 5.3fr 4.5fr 5.5fr;
+  background-color: #fffaf7;
+}
+#logo {
+  border-radius: 50%;
+}
+.div-1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  background-color: #313e50;
+}
+.div-2 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+.div-3 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+.div-4 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+.div-5 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+nav {
+  background-color: #6f5e76;
+}
+#nateHome {
+  font-family: passion One;
+}
+h1 {
+  font-family: Passion One;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.pacMen {
+  margin-left: 1em;
+  font-family: "Krub";
+}
+.eyeMovement {
+  margin-left: 1em;
+  font-family: "Krub";
+}
+.busTracker {
+  margin-left: 1em;
+  font-family: "Krub";
+}
